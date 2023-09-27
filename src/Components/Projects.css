@@ -1,0 +1,30 @@
+#projects h2 {
+  margin: 50px;
+border: 2px solid orangered;
+text-align: center;
+padding: 20px;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.project-card {
+  background-color: #f0f4f8;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out;
+}
+.project-card:hover {
+  transform: scale(1.02);
+}
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Add additional styling for search input, animations, and responsiveness */

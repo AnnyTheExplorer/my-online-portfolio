@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* .resume {
+  background-color: red;
+  height: 100vh;
+} */
+.experience-stn {
+margin: 50px;
+border: 2px solid orangered;
+text-align: center;
+padding: 20px;
+}
+.experience-stn h2 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+.experience-stn p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.education, .work-experience {
+  margin-left: 50px;
+  width: 50%;
+}
+.education h2, .work-experience h2 {
+  padding-bottom: 20px;
+  color: orangered;
+  font-size: 40px;
+}
+.education ul, .work-experience ul {
+  padding-bottom: 30px;
+}
+.education h4, .work-experience p {
+  padding: 10px 0 20px 0;
+  font-size: 16px;
+}
+.education li, .work-experience li {
+padding-bottom: 10px;
+font-size: 18px;
+font-weight: 500;
+}
+.education h3, .work-experience h3 {
+  font-size: 26px;
+  padding-bottom: 10px;
+  text-decoration: 4px underline orangered;
+}
+.education h4, .work-experience h4 {
+font-size: 18px;
+}

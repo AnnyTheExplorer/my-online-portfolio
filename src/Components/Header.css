@@ -1,0 +1,88 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: orangered;
+  cursor: pointer;
+}
+.logo span {
+  color: #150e28;
+}
+.nav-options span {
+  padding-right: 50px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav-options span:hover {
+  color: orangered;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 22px;
+  transition: 1ms ease-in-out;
+}
+.nav-btn {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 15px;
+  border: 2px solid #150e28;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.nav-btn a {
+  color: #150e28;
+  text-decoration: none;
+}
+.nav-btn:hover {
+  background-color: orangered;
+  color: white;
+  transition: 1.2ms ease-in-out;
+  border: none;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.header h3 {
+  padding: 100px 0;
+}
+.title h2 {
+  font-size: 60px;
+  padding-right: 50px;
+}
+.title h2 span {
+  font-size: 70px;
+  padding-right: 20px;
+  color: orangered;
+}
+.title span {
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+.about {
+  width: 35%;
+  padding-left: 30px;
+  padding-top: 30px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  line-height: 2;
+}
+.about span {
+  color: orangered;
+}
+.about .github-btn {
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: 4px underline orangered;
+  cursor: pointer;
+}
